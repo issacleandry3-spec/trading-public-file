@@ -1,0 +1,14 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Claude Code local overrides
+.claude/settings.local.json
+.mcp.local.json
+
+# Node
+node_modules/
+npm-debug.log*

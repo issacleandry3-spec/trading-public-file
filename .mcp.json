@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "quiverquant": {
+      "type": "http",
+      "url": "https://mcp.quiverquant.com/",
+      "headers": {
+        "Authorization": "Bearer ${QUIVER_API_KEY}"
+      }
+    }
+  }
+}
