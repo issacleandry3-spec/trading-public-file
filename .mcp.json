@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "camoufox": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "camoufox-mcp-server@latest"
+      ],
+      "env": {}
+    }
+  }
+}
